@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let score = 0; // Score of the game
     let gameStarted = false; // Game status
     let food = { x: 300, y: 200 }; // {x: 15*20, y: 10*20} // -> cell coordinate -> pixels// top left pixels for food
-    let snake = [{x: 160, y: 200}, {x: 140, y: 200}, {x: 120, y: 200}]; // [head, body, body, tail]
+    const snake = [{x: 160, y: 200}, {x: 140, y: 200}, {x: 120, y: 200}]; // [head, body, body, tail]
 
     let dx = cellSize; // +20
     let dy = 0;
